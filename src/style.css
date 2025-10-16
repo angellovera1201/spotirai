@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 2rem;
+  background: #0f172a;
+  color: #e6eef8;
+}
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #0b1220;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+}
+
+button {
+  background: #06b6d4;
+  color: #062024;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.player .now-playing { display:flex; justify-content:space-between; align-items:center; gap:1rem }
+.player .controls button { margin:0 0.25rem }
+.player img#cover { width:80px; height:80px; border-radius:6px; object-fit:cover }
+.progress-wrap { display:flex; align-items:center; gap:0.5rem; margin-top:1rem }
+.progress-wrap input[type=range] { flex:1 }
+.playlist-wrap ul { list-style:none; padding:0; margin:0.5rem 0 }
+.playlist-wrap li { padding:0.4rem 0.6rem; cursor:pointer; border-radius:4px }
+.playlist-wrap li:hover { background:rgba(255,255,255,0.03) }
+.extras { margin-top:0.75rem; display:flex; gap:0.6rem; align-items:center }
+.extras input[type=range]{ width:120px }
+.add-song { margin-top:1rem; display:flex; gap:0.4rem; flex-wrap:wrap }
+.add-song input { flex:1; padding:0.4rem }

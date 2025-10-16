@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotirai - Demo</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Spotirai</h1>
+      <p>Reproductor simple — añade canciones luego editando <code>src/data/songs.json</code> o usando el formulario.</p>
+
+      <section id="player" class="player">
+        <div class="now-playing">
+          <img id="cover" src="https://picsum.photos/seed/placeholder/300/300" alt="cover" width="80" height="80">
+          <div class="track-info">
+            <div id="track-title">—</div>
+            <div id="track-artist">—</div>
+          </div>
+          <div class="controls">
+            <button id="prev">⏮️</button>
+            <button id="play">▶️</button>
+            <button id="next">⏭️</button>
+          </div>
+        </div>
+
+        <div class="progress-wrap">
+          <span id="current-time">0:00</span>
+          <input id="progress" type="range" min="0" max="100" value="0" aria-label="Progreso de la canción">
+          <span id="duration">0:00</span>
+        </div>
+
+        <div class="extras">
+          <label for="volume">Volumen</label>
+          <input id="volume" type="range" min="0" max="1" step="0.01" value="1" aria-label="Control de volumen">
+
+          <label for="search">Buscar</label>
+          <input id="search" type="search" placeholder="Buscar título o artista..." aria-label="Buscar en la playlist">
+        </div>
+
+        <div class="playlist-wrap">
+          <h3>Lista de canciones</h3>
+          <ul id="playlist"></ul>
+        </div>
+
+        <form id="addSongForm" class="add-song">
+          <h4>Añadir canción (localStorage)</h4>
+          <input id="songTitle" placeholder="Título" required>
+          <input id="songArtist" placeholder="Artista">
+          <input id="songUrl" placeholder="URL mp3, p.ej. https://..." required>
+          <input id="songCover" placeholder="URL carátula (opcional) p.ej. https://...">
+          <button type="submit">Añadir</button>
+        </form>
+      </section>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

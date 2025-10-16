@@ -1,0 +1,39 @@
+[
+  {
+    "title": "God's Plan",
+    "artist": "Drake",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "coverUrl": "/covers/drake-gods-plan.svg"
+  },
+  {
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "coverUrl": "/covers/drake-hotline-bling.svg"
+  },
+  {
+    "title": "One Dance",
+    "artist": "Drake ft. Wizkid & Kyla",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "coverUrl": "/covers/drake-one-dance.svg"
+  },
+  {
+    "title": "In My Feelings",
+    "artist": "Drake",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "coverUrl": "/covers/drake-in-my-feelings.svg"
+  }
+,
+  {
+    "title": "Savage Track 1",
+    "artist": "Savage 21",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "coverUrl": "/covers/savage-1.svg"
+  },
+  {
+    "title": "Savage Track 2",
+    "artist": "Savage 21",
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "coverUrl": "/covers/savage-2.svg"
+  }
+]
